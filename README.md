@@ -1,3 +1,78 @@
+# Retail SID — Système d'Information Décisionnel
+
+> Data Warehouse, ETL, Cube OLAP et rapports décisionnels pour l'analyse des ventes retail, construit avec SQL Server (SSMS, SSAS, SSRS).
+
+Projet académique de bout en bout : à partir de 9994 commandes retail brutes (CSV), construction d'un entrepôt de données en schéma étoile, d'un cube OLAP multidimensionnel interrogé en MDX, et de cinq rapports décisionnels — révélant notamment qu'une catégorie de produits ne dégage que 2,5% de marge malgré un fort chiffre d'affaires.
+
+## Contexte
+
+Ce projet reproduit le pipeline décisionnel classique — Extraction, Transformation, Loading, Entrepôt de données, Analyse multidimensionnelle, Restitution, Décision — inspiré des concepts couverts par la certification **Microsoft Fabric DP-600**, mais implémenté intégralement avec la suite **SQL Server on-premise** (SSMS + SSAS + SSRS), sans dépendance à un environnement cloud.
+
+## Architecture
+
+Fichiers CSV (Superstore)
+│
+▼
+Extraction (ETL) — SSMS Import Flat File
+│
+▼
+Data Warehouse — SQL Server (RetailDW)
+│
+▼
+Schéma en étoile (approche Kimball)
+│
+▼
+Cube OLAP — SQL Server Analysis Services (SSAS)
+│
+▼
+Rapports décisionnels — SSRS (requêtes MDX)
+│
+▼
+Prise de décision
+
+
+## Technologies utilisées
+
+| Composant | Outil |
+|---|---|
+| Moteur de base de données | SQL Server 2025 (Developer Edition) |
+| Client SQL | SQL Server Management Studio (SSMS) |
+| Cube OLAP | SQL Server Analysis Services (SSAS), édition Evaluation |
+| Rapports décisionnels | SQL Server Reporting Services (SSRS) |
+| Environnement de développement | Visual Studio + SQL Server Data Tools (SSDT) |
+| Dataset | [Superstore Dataset](https://www.kaggle.com/datasets/ankumagawa/dataset-superstore-20152018) (9994 lignes, 2014–2017) |
+
+## Modélisation dimensionnelle
+
+**Grain** : une ligne de `FactSales` représente une ligne de commande.
+
+**Schéma en étoile** :
+                    DimDate
+                       │
+
+DimCustomer ───────── FactSales ───────── DimProduct
+│
+DimRegion
+│
+DimShipMode
+
+
+- **Dimensions** : `DimDate`, `DimProduct`, `DimCustomer`, `DimRegion`, `DimShipMode`
+- **Table de faits** : `FactSales` (mesures : Sales, Quantity, Discount, Profit)
+- **Hiérarchies** : Temps (Year→Quarter→Month→Day), Produit (Category→SubCategory→ProductName), Géographie (Country→Region→State→City)
+- **Mesure calculée** : `Marge_Profit = Profit / Sales`
+
+## Structure du dépôt
+
+retail-sid-datawarehouse/
+├── sql/ Scripts SQL (création DW, ETL, requêtes décisionnelles)
+├── mdx/ Requêtes MDX interrogeant le cube OLAP
+├── ssas/ Projet Visual Studio du cube OLAP (SSAS)
+├── ssrs/ Projet Visual Studio des rapports décisionnels (SSRS)
+├── screenshots/ Captures d'écran (schéma étoile, cube, rapports)
+└── docs/ Rapport LaTeX, présentation Beamer, script de soutenance
+
+
 ## Comment reproduire ce projet
 
 1. Installer **SQL Server Developer Edition** + **SSMS**
@@ -40,11 +115,6 @@
 - **Dice** : filtrer sur plusieurs dimensions (Year = 2016 ET Region = West)
 - **Pivot** : permutation des axes d'analyse
 
-## Documentation complète
-
-- [`docs/rapport_sid.tex`](docs/rapport_sid.tex) — rapport complet (à compiler sur Overleaf)
-- [`docs/presentation_sid.tex`](docs/presentation_sid.tex) — présentation Beamer
-- [`docs/Script_Soutenance_Orale.pdf`](docs/Script_Soutenance_Orale.pdf) — script de soutenance orale
 
 ## Auteur
 
