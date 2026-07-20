@@ -1,0 +1,36 @@
+# Visual Studio  SSDT
+.suo
+.user
+.userosscache
+.sln.docstates
+bin
+obj
+Debug
+Release
+.vs
+
+# SSAS  SSRS temp files
+.deploymenttargets
+.dsv.layout
+.asdbcache
+.rdl.data
+
+# SQL Server backups (trop lourds pour git)
+.bak
+.mdf
+.ldf
+
+# Fichiers volumineux du dataset brut (garder seulement dans un dossier data si besoin, sinon exclure)
+.csv
+
+# Fichiers temporaires OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX (fichiers de compilation générés par Overleaflocal, on garde juste les .tex)
+.aux
+.log
+.toc
+.out
+.synctex.gz
