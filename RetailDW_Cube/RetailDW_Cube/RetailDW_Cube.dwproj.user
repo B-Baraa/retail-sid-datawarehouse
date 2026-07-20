@@ -1,0 +1,24 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Retail DW</Id>
+            <Name>Retail DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApnFXff6jnkKvmPRu/v0EKgAAAAAUAAAAUgBlAHQAYQBpAGwAIABEAFcAAAAQZgAAAAEAACAAAAAjCt348GhQBYK5YEK0kKHpXrcbqEP3j2rIvPLCYUKxQQAAAAAOgAAAAAIAACAAAAAtdeLqwhoPhsNXxI6SLdYWqa2E/DF74agFSMI738uK8BAAAAAjHEXka2/G1G3UYTFg8j1KQAAAAFG6bO3aq/XkOTvQb0FbIfb9x2Rpgf6KDSwE03aGPyBcQVnCYHKmhk3t0uS/1M1J30SjKDWBym605HcPZ6HHKlY=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <TargetServer>   localhost\SSASEVAL
+
+</TargetServer>
+        <TargetDatabase>RetailDW_Cube</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

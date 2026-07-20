@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|solutionrelative:RetailDW_Dashboard\\Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|solutionrelative:RetailDW_Dashboard\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\01_VueExecutive.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|solutionrelative:RetailDW_Dashboard\\01_VueExecutive.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|solutionrelative:RetailDW_Dashboard\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{ED9F47C9-D467-44BF-AF1F-EFE9D4C6B0AB}|RetailDW_Dashboard\\RetailDW_Dashboard.rptproj|solutionrelative:RetailDW_Dashboard\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report4.rdl [Conception]",
+              "DocumentMoniker": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report4.rdl",
+              "RelativeDocumentMoniker": "RetailDW_Dashboard\\Report4.rdl",
+              "ToolTip": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report4.rdl [Conception]",
+              "RelativeToolTip": "RetailDW_Dashboard\\Report4.rdl [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-12T04:19:43.984Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "01_VueExecutive.rdl [Conception]",
+              "DocumentMoniker": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\01_VueExecutive.rdl",
+              "RelativeDocumentMoniker": "RetailDW_Dashboard\\01_VueExecutive.rdl",
+              "ToolTip": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\01_VueExecutive.rdl [Conception]*",
+              "RelativeToolTip": "RetailDW_Dashboard\\01_VueExecutive.rdl [Conception]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-12T02:25:14.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report3.rdl [Conception]",
+              "DocumentMoniker": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report3.rdl",
+              "RelativeDocumentMoniker": "RetailDW_Dashboard\\Report3.rdl",
+              "ToolTip": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report3.rdl [Conception]*",
+              "RelativeToolTip": "RetailDW_Dashboard\\Report3.rdl [Conception]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-12T03:43:57.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report2.rdl [Conception]",
+              "DocumentMoniker": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report2.rdl",
+              "RelativeDocumentMoniker": "RetailDW_Dashboard\\Report2.rdl",
+              "ToolTip": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report2.rdl [Conception]",
+              "RelativeToolTip": "RetailDW_Dashboard\\Report2.rdl [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-12T03:38:50.048Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report1.rdl [Conception]",
+              "DocumentMoniker": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report1.rdl",
+              "RelativeDocumentMoniker": "RetailDW_Dashboard\\Report1.rdl",
+              "ToolTip": "C:\\SuperstoreData\\Retail_SID\\RetailDW_Dashboard\\RetailDW_Dashboard\\Report1.rdl [Conception]",
+              "RelativeToolTip": "RetailDW_Dashboard\\Report1.rdl [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-12T03:27:06.299Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
